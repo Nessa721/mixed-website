@@ -7,19 +7,89 @@
 }
 
 body {
-    background-color: #dcdbda;
+    background-color: #0A0908;
+    color: #DCD7D6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+
 }
 
-/*#navbar {
-    background-color: aqua;
+#navbar {
+    font-family: 'Oswald', sans-serif;
+    background-color: #22211d;
+    width: 100%;
+    height: 20%;
+    position: sticky;
+}
 
+a {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+#navbar a {
+    font-weight: 500;
+    color: #DCD7D6;
+    list-style: none;
+    float: left;
+    padding: 7px 15px;
+}
+
+
+#navbar-right {
+    font-size: 16px;
+    float: right;
+    top: 50%;
+}
+
+#navebar-right a {
+    display: inline-block;
+    padding: 10px;
 }
 
 #hero-img {
-    background-image: url("/workspace/mixed-website/css/images/pexels-helena-lopes-4279100.jpg");
-    background-attachment: fixed;
+    width: 100%;
+    height: 450px;
+    background-image: url("/workspace/mixed-website/css/images/pexels-lucian-potlog-3566120.jpg");
     background-repeat: no-repeat;
-    background-position: center center;
-    width: auto;
-    height: 700px;
-}*/
+    background-position: center;
+    background-size: cover;
+    position: static;
+    
+}
+
+.top-box {
+    margin-top: 15px;
+    width: 300px;
+    height: 350px;
+    margin-left: 100px;
+    border: 2px solid antiquewhite;
+}
+ 
+#top-drink {
+    background: url("/workspace/mixed-website/css/images/pexels-taryn-elliott-4144244.jpg") no-repeat right center;
+    background-size: cover;
+}
+
+.drink-box {
+    width: 300px;
+    height: 175px;
+    padding-left: 10px, black;
+}
+
+.classic1 {
+    background-image: url("");
+} .classic2, .classic3 {
+
+}
+
+.box {
+    width: 300px;
+    height: 175px;
+    padding: 10px;
+}

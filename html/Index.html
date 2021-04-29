@@ -11,23 +11,31 @@
 <body>
 
     <section>
-        <div id="hero-img">
-            <nav id="navbar">
-                <a href="/workspace/mixed-website/html/Index.html"><h1>MixedUp</h1></a>
-                <a href="/workspace/mixed-website/html/recipes/recipes.html">Recipes list</a>
-                <a href="/workspace/mixed-website/html/gallery.html">Gallery</a>
-            </nav>
+        <div id="navbar">
+            <a href="/workspace/mixed-website/html/Index.html">MixedUp</a>
+            <div id="navbar-right">
+                <a class="menu" href="/workspace/mixed-website/html/recipes/recipes.html">Recipes list</a>
+                <a class="menu" href="/workspace/mixed-website/html/gallery.html">Gallery</a>
+            </div>
         </div>
+        <div id="hero-img"></div>
+
     </section>
 
     <section>
 
-        <div>drink of the week</div>
+        <div id="top-drink" class="top-box col-6"></div>
 
-        <div><a href="/workspace/mixed-website/html/recipes/gin_tonic.html">Gin and Tonic</a><p></p></div>
-        <div><a href="/workspace/mixed-website/html/recipes/gin_tonic.html">Negroni</a><p></p></div>
-        <div><a href="/workspace/mixed-website/html/recipes/gin_tonic.html">French 75</a><p></p></div>
-        <div>
+        <div class="drink-box classic1 col-6">
+            <a href="/workspace/mixed-website/html/recipes/gin_tonic.html">Gin and Tonic</a>
+        </div>
+        <div class="drink-box classic2">
+            <a href="/workspace/mixed-website/html/recipes/gin_tonic.html">Negroni</a>
+        </div>
+        <div class="drink-box calssic3">
+            <a href="/workspace/mixed-website/html/recipes/gin_tonic.html">French 75</a>
+        </div>
+        <div class="box col-6" id="poll">
             <form> 
                 <p>What is your favourite brand of gin?</p>
                 <input type="radio" id="hendrick" name="drink" value="hendrick">
@@ -49,7 +57,7 @@
 
     <section>
         <form action="">
-            
+
         </form>
     </section>
 
